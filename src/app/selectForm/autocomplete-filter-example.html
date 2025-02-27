@@ -1,0 +1,11 @@
+<label>please select newspaper</label>
+<div>
+  <select
+    name="test"
+    [(ngModel)]="selectedId"
+    (change)="onSelectChange($event)"
+  >
+    <option>---select--</option>
+    <option *ngFor="let np of dataSource" [value]="np.id">{{ np.name }}</option>
+  </select>
+</div>

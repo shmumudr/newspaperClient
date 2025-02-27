@@ -1,0 +1,24 @@
+
+
+.company-name {
+  background: #2b6777;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.company-name h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.content {
+  padding: 7rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 95%;
+  }
+}
