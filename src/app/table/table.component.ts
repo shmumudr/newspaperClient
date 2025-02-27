@@ -47,7 +47,6 @@ export class TableComponent {
 
   ngOnInit(): void {
     // this.fetchData();
-    // this.newspaperService.fetchData();
   }
 
   ngDoCheck() {
