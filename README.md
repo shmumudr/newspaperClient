@@ -31,10 +31,12 @@ cd backend
 
 
 #### 3. Run the Frontend
-
-
+```sh
 npm install
 ng serve
+```
+
+
 
 (Runs on `http://localhost:4200` by default)
 
