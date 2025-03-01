@@ -20,13 +20,13 @@ export class NewspaperService {
 
   fetchData() {
     this.isChange = true;
-    console.log("is change true");
+    console.log('is change true');
   }
   async getData(id: string): Promise<TableData[]> {
     const response = await fetch(`${this.url}data/${id}`);
 
     if (!response.ok) {
-      throw new Error(`error: ${response.status}`);
+      throw new Error(`error in response: ${response.status}`);
     }
     const data = await response.json();
     console.log(data, 'data');
