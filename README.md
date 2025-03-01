@@ -25,7 +25,6 @@ Indox is a small web application built using **Angular** for the frontend and **
 #### 2. Run the Backend
 
 ```sh
-cd backend
  dotnet run
 ```
 
